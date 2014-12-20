@@ -1,0 +1,12 @@
+﻿@model Docs.Models.DocumentationPage
+
+@{
+    ViewBag.Title = Model.Title;
+}
+
+<div class="row">
+    <article class="col-md-9" role="main">
+        <h1>@Model.Title</h1>
+        @Model.Content
+    </article>
+</div>
